@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IT Travel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>IT Travel</h1>
+        <h2>HOTELS, RESORTS, HOSTELS & MORE</h2>
+    </header>
+        <main>
+            <form action="" method="post" class="order">
+                <ul>
+                    <li>
+                        <input type="search" name="country" placeholder="Enter country" class="userInfo" required autofocus>
+                    </li>
+                    <li>
+                        <input type="search" name="hotel" placeholder="Enter hotel name" class="userInfo" required>
+                    </li>
+                    <li>
+                        <input type="date" name="startDate" class="userInfo" required>
+                    </li>
+                    <li>
+                        <input type="date" name="endDate" class="userInfo" required>
+                    </li>
+                    <input type="submit" value="Search" name="send">
+                </ul>
+
+            </form>
+            <div class="contactUs">
+                <p>Contact Us</p>
+            </div>
+            <form action="" method="post" class="userContact">
+                <ul class="user">
+                   <li class="list">
+                       <input class="userData" type="tel" name="userTel" placeholder="Enter your phone number" pattern="^[/+][0-9]+$">
+                   </li>
+                    <li class="list">
+                        <input class="userData" type="email" name="userEmail" placeholder="Enter your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 3}$">
+                    </li>
+                    <li class="list">
+                        <textarea name="message" placeholder="Enter your message"></textarea>
+                    </li>
+                    <li class="list">
+                        <button class="buttonSend">Send</button>
+                    </li>
+                </ul>
+            </form>
+        </main>
+    <footer>
+        <span>Made with️❤️in IF © 2019 Khomyn Serhii</span>
+    </footer>
+</body>
+</html>
