@@ -55,12 +55,16 @@ span {
 }
 
 .contactUs {
+    height: 18rem;
     width: 33%;
     float: left;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
 }
 
 .userContact {
-    width: 33%;
+    width: 50%;
     display: inline-block;
 }
 
